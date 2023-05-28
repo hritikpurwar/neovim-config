@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
+  use 'lewis6991/gitsigns.nvim'
   --completion
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
