@@ -4,6 +4,9 @@ end
 require 'nvim-treesitter.configs'.setup {
   ensure_installed = { "c", "rust", "ruby", "vim", "javascript", "c_sharp", "sql", "python", "typescript", "tsx", "cpp" },
   sync_install = false,
+  autotag = {
+    enable = true,
+  },
   auto_install = true,
   highlight = {
     enable = true,
