@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
     "neovim/nvim-lspconfig",
   }
   use 'L3MON4D3/LuaSnip'
+  use 'glepnir/lspsaga.nvim'
   use {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.0',

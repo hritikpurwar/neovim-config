@@ -21,10 +21,10 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
-vim.keymap.set('n', 'sj', '<C-w>j', opts)
-vim.keymap.set('n', 'sk', '<C-w>k', opts)
-vim.keymap.set('n', 'sl', '<C-w>l', opts)
-vim.keymap.set('n', 'sh', '<C-w>h', opts)
+vim.keymap.set('n', 'zj', '<C-w>j', opts)
+vim.keymap.set('n', 'zk', '<C-w>k', opts)
+vim.keymap.set('n', 'zl', '<C-w>l', opts)
+vim.keymap.set('n', 'zh', '<C-w>h', opts)
 vim.keymap.set("n", "<tab>", "<c-6>", opts)
 -- split window resizing
 vim.keymap.set("n", "<C-Up>", ":resize -2<CR>", opts)
